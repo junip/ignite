@@ -1,7 +1,7 @@
 {
   "name": "uidesignsdaily",
   "version": "1.0.0",
-  "description": "Collection of React components designs from uidesignsdaily.com",
+  "description": "A starter configuration repository for typescript react and parcel",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/junipdewan/uidesignsdaily.git"
+    "url": "git+ssh://git@github.com/junipdewan/parcel-react-typescript.git"
   },
   "keywords": [
     "designs",
@@ -22,9 +22,9 @@
   "author": "Junip Dewan (junipd2@gmail.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/junipdewan/uidesignsdaily/issues"
+    "url": "https://github.com/junipdewan/parcel-react-typescript/issues"
   },
-  "homepage": "https://github.com/junipdewan/uidesignsdaily#readme",
+  "homepage": "https://github.com/junipdewan/parcel-react-typescript#readme",
   "dependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
