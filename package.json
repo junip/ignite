@@ -4,8 +4,10 @@
   "description": "A starter configuration repository for typescript react and parcel",
   "main": "index.js",
   "scripts": {
+    "build": "parcel build src/index.html --out-dir public",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel open src/index.html"
+    "dev": "parcel open src/index.html",
+    "remove-cache": "rm -rf .cache"
   },
   "repository": {
     "type": "git",
@@ -26,6 +28,7 @@
   },
   "homepage": "https://github.com/junipdewan/parcel-react-typescript#readme",
   "dependencies": {
+    "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "typescript": "^3.8.3"
@@ -33,11 +36,12 @@
   "devDependencies": {
     "@types/react": "^16.9.34",
     "@types/react-dom": "^16.9.7",
-    "@typescript-eslint/eslint-plugin": "^2.30.0",
-    "@typescript-eslint/parser": "^2.30.0",
+    "@typescript-eslint/eslint-plugin": "^2.31.0",
+    "@typescript-eslint/parser": "^2.31.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.1.0",
     "eslint-config-airbnb-typescript": "7.2.1",
+    "eslint-config-prettier": "6.11.0",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.19.0",
