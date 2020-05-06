@@ -5,7 +5,7 @@ and other checks
 ## Motivation
 Just wanted to setup a react project with parcel bundler.Added manually all the linting rules and dependencies to understand the setup and deployment related changes.
 
-# Setup 
+## Setup 
 
 Your are required to have Node.js. After cloning this repository 
 
@@ -21,8 +21,8 @@ Your are required to have Node.js. After cloning this repository
 ```
 
 
-# Contributing
+## Contributing
 There may be something missing or need to be added for a project starter.You are welcomed to contribute
 
-# License
+## License
 MIT
